@@ -29,7 +29,7 @@ const routes = {
             }
         },
         {
-            prefix: "/info",
+            prefix: "/",
             pin: "role:info, cmd: info",
             map: {
                 info: {
