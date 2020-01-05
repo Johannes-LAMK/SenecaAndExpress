@@ -1,3 +1,7 @@
 require('seneca')()
     .use('info')
-    .listen(3001)
+    .listen({
+        host: "localhost",
+        port: 3002,
+        type: "web"
+    })
